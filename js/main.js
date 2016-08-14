@@ -737,6 +737,9 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
       case 100:
         $scope.buyMultiplier = 1;
         break;
+      case 1000:
+        $scope.buyMultiplier = 10000;
+        break;
     }
   }
 
